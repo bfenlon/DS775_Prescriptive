@@ -1,0 +1,365 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    
+Objective:  cost = 1812 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 c_e_tot_hours(1)_
+                    NS      14.00000        .           14.00000       12.00000          -Inf    1760.00000 c_l_op_min_week(2)_
+                                          26.00000      14.00000       15.00000          +Inf    1838.00000 c_u_op_avail(7)_
+
+     2 c_e_tot_hours(2)_
+                    NS      14.00000        .           14.00000       12.00000          -Inf    1760.00000 c_l_op_min_week(2)_
+                                          26.00000      14.00000       15.00000          +Inf    1838.00000 c_u_op_avail(7)_
+
+     3 c_e_tot_hours(3)_
+                    NS      14.00000        .           14.00000       13.00000          -Inf    1786.00000 hrs_day(SC_Wed)
+                                          26.00000      14.00000       15.00000          +Inf    1838.00000 c_u_op_avail(7)_
+
+     4 c_e_tot_hours(4)_
+                    NS      14.00000        .           14.00000       12.00000          -Inf    1760.00000 c_u_op_avail(21)_
+                                          26.00000      14.00000       15.00000          +Inf    1838.00000 c_u_op_avail(7)_
+
+     5 c_e_tot_hours(5)_
+                    NS      14.00000        .           14.00000       12.00000          -Inf    1760.00000 c_l_op_min_week(2)_
+                                          26.00000      14.00000       15.00000          +Inf    1838.00000 c_u_op_avail(7)_
+
+     6 c_u_op_avail(1)_
+                    NU       6.00000        .               -Inf        5.00000          -Inf    1813.00000 c_u_op_avail(7)_
+                                          -1.00000       6.00000        8.00000       1.00000    1810.00000 c_l_op_min_week(2)_
+
+     7 c_u_op_avail(2)_
+                    NU        .             .               -Inf         .               -Inf    1812.00000 hrs_day(KC_Tue)
+                                          -1.00000        .             2.00000       1.00000    1810.00000 c_l_op_min_week(2)_
+
+     8 c_u_op_avail(3)_
+                    NU       6.00000        .               -Inf        5.00000          -Inf    1813.00000 c_u_op_avail(7)_
+                                          -1.00000       6.00000        7.00000       1.00000    1811.00000 hrs_day(SC_Wed)
+
+     9 c_u_op_avail(4)_
+                    NU        .             .               -Inf         .               -Inf    1812.00000 hrs_day(KC_Thu)
+                                          -1.00000        .             2.00000       1.00000    1810.00000 c_u_op_avail(21)_
+
+    10 c_u_op_avail(5)_
+                    NU       6.00000        .               -Inf        5.00000          -Inf    1813.00000 c_u_op_avail(7)_
+                                          -1.00000       6.00000        8.00000       1.00000    1810.00000 c_l_op_min_week(2)_
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    
+Objective:  cost = 1812 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 c_u_op_avail(6)_
+                    NU        .             .               -Inf         .               -Inf    1812.00000 hrs_day(DH_Mon)
+                                            .             .             3.00000        .         1812.00000 hrs_day(SC_Mon)
+
+    12 c_u_op_avail(7)_
+                    BS       5.00000       1.00000          -Inf        5.00000        .         1812.00000 c_u_op_avail(6)_
+                                            .            6.00000        3.00000       1.00000    1817.00000 c_l_op_min_week(4)_
+
+    13 c_u_op_avail(8)_
+                    NU        .             .               -Inf         .               -Inf    1812.00000 hrs_day(DH_Wed)
+                                            .             .             1.00000        .         1812.00000 hrs_day(SC_Wed)
+
+    14 c_u_op_avail(9)_
+                    NU       5.00000        .               -Inf        4.00000          -Inf    1812.00000 c_u_op_avail(7)_
+                                            .            5.00000        7.00000        .         1812.00000 c_u_op_avail(21)_
+
+    15 c_u_op_avail(10)_
+                    NU        .             .               -Inf         .               -Inf    1812.00000 hrs_day(DH_Fri)
+                                            .             .             3.00000        .         1812.00000 hrs_day(SC_Fri)
+
+    16 c_u_op_avail(11)_
+                    NU       4.00000        .               -Inf        3.00000          -Inf    1814.00000 c_u_op_avail(7)_
+                                          -2.00000       4.00000        6.00000       2.00000    1808.00000 c_l_op_min_week(2)_
+
+    17 c_u_op_avail(12)_
+                    NU       8.00000        .               -Inf        7.00000          -Inf    1814.00000 c_u_op_avail(7)_
+                                          -2.00000       8.00000       10.00000       2.00000    1808.00000 c_l_op_min_week(2)_
+
+    18 c_u_op_avail(13)_
+                    NU       4.00000        .               -Inf        3.00000          -Inf    1814.00000 c_u_op_avail(7)_
+                                          -2.00000       4.00000        5.00000       2.00000    1810.00000 hrs_day(SC_Wed)
+
+    19 c_u_op_avail(14)_
+                    NU        .             .               -Inf         .               -Inf    1812.00000 hrs_day(HB_Thu)
+                                          -2.00000        .             2.00000       2.00000    1808.00000 c_u_op_avail(21)_
+
+    20 c_u_op_avail(15)_
+                    NU       4.00000        .               -Inf        3.00000          -Inf    1814.00000 c_u_op_avail(7)_
+                                          -2.00000       4.00000        6.00000       2.00000    1808.00000 c_l_op_min_week(2)_
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    
+Objective:  cost = 1812 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 c_u_op_avail(16)_
+                    BS       3.00000       2.00000          -Inf        3.00000        .         1812.00000 c_u_op_avail(6)_
+                                            .            5.00000        3.00000        .         1812.00000 c_u_op_avail(22)_
+
+    22 c_u_op_avail(17)_
+                    BS       1.00000       4.00000          -Inf        1.00000        .         1812.00000 c_u_op_avail(22)_
+                                            .            5.00000        1.00000        .         1812.00000 c_u_op_avail(6)_
+
+    23 c_u_op_avail(18)_
+                    BS       1.00000       4.00000          -Inf        1.00000        .         1812.00000 c_u_op_avail(8)_
+                                            .            5.00000        1.00000          +Inf          +Inf
+
+    24 c_u_op_avail(19)_
+                    NU        .             .               -Inf         .               -Inf    1812.00000 hrs_day(SC_Thu)
+                                            .             .             2.00000        .         1812.00000 c_u_op_avail(21)_
+
+    25 c_u_op_avail(20)_
+                    BS       3.00000       2.00000          -Inf        3.00000        .         1812.00000 c_u_op_avail(10)_
+                                            .            5.00000        3.00000        .         1812.00000 c_u_op_avail(26)_
+
+    26 c_u_op_avail(21)_
+                    BS       1.00000       2.00000          -Inf        1.00000        .         1812.00000 c_u_op_avail(22)_
+                                            .            3.00000         .             .         1812.00000 c_u_op_avail(9)_
+
+    27 c_u_op_avail(22)_
+                    NU        .             .               -Inf         .               -Inf    1812.00000 hrs_day(KS_Tue)
+                                            .             .             1.00000        .         1812.00000 hrs_day(KS_Mon)
+
+    28 c_u_op_avail(23)_
+                    NU       3.00000        .               -Inf        1.00000          -Inf    1812.00000 c_u_op_avail(21)_
+                                            .            3.00000        4.00000        .         1812.00000 hrs_day(KS_Mon)
+
+    29 c_u_op_avail(24)_
+                    BS       3.00000       5.00000          -Inf        4.00000        .         1812.00000 c_u_op_avail(9)_
+                                            .            8.00000        3.00000          +Inf          +Inf
+
+    30 c_u_op_avail(25)_
+                    NU        .             .               -Inf         .               -Inf    1812.00000 hrs_day(KS_Fri)
+                                            .             .             1.00000        .         1812.00000 hrs_day(KS_Mon)
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    
+Objective:  cost = 1812 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 c_u_op_avail(26)_
+                    NU        .             .               -Inf         .               -Inf    1812.00000 hrs_day(NK_Mon)
+                                            .             .             1.00000        .         1812.00000 hrs_day(NK_Fri)
+
+    32 c_u_op_avail(27)_
+                    NU        .             .               -Inf         .               -Inf    1812.00000 hrs_day(NK_Tue)
+                                            .             .             1.00000        .         1812.00000 hrs_day(NK_Fri)
+
+    33 c_u_op_avail(28)_
+                    NU        .             .               -Inf         .               -Inf    1812.00000 hrs_day(NK_Wed)
+                                            .             .             1.00000        .         1812.00000 hrs_day(NK_Fri)
+
+    34 c_u_op_avail(29)_
+                    NU       6.00000        .               -Inf        5.00000          -Inf    1812.00000 c_u_op_avail(30)_
+                                            .            6.00000        7.00000        .         1812.00000 hrs_day(NK_Fri)
+
+    35 c_u_op_avail(30)_
+                    BS       1.00000       1.00000          -Inf        1.00000        .         1812.00000 c_u_op_avail(26)_
+                                            .            2.00000        1.00000          +Inf          +Inf
+
+    36 c_l_op_min_week(1)_
+                    BS      18.00000     -10.00000       8.00000       18.00000          -Inf          -Inf
+                                            .               +Inf       17.00000       1.00000    1830.00000 c_u_op_avail(1)_
+
+    37 c_l_op_min_week(2)_
+                    BS      10.00000      -2.00000       8.00000       11.00000      -1.00000    1802.00000 c_u_op_avail(1)_
+                                            .               +Inf        6.00000       1.00000    1822.00000 c_l_op_min_week(4)_
+
+    38 c_l_op_min_week(3)_
+                    BS      20.00000     -12.00000       8.00000       20.00000          -Inf          -Inf
+                                            .               +Inf       19.00000       2.00000    1852.00000 c_u_op_avail(11)_
+
+    39 c_l_op_min_week(4)_
+                    NL       8.00000        .            8.00000        7.00000      -1.00000    1811.00000 c_u_op_avail(7)_
+                                           1.00000          +Inf       10.00000          +Inf    1814.00000 c_l_op_min_week(2)_
+
+    40 c_l_op_min_week(5)_
+                    NL       7.00000        .            7.00000        6.00000      -2.00000    1810.00000 c_u_op_avail(7)_
+                                           2.00000          +Inf        9.00000          +Inf    1816.00000 c_u_op_avail(21)_
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    
+Objective:  cost = 1812 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 c_l_op_min_week(6)_
+                    NL       7.00000        .            7.00000        6.00000      -4.00000    1808.00000 c_u_op_avail(7)_
+                                           4.00000          +Inf        8.00000          +Inf    1816.00000 c_u_op_avail(30)_
+
+    42 c_e_ONE_VAR_CONSTANT
+                    NS       1.00000        .            1.00000         .               -Inf    1812.00000 ONE_VAR_CONSTANT
+                                            .            1.00000           +Inf          +Inf    1812.00000
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    
+Objective:  cost = 1812 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 hrs_day(DH_Fri)
+                    BS        .           26.00000        .              .               -Inf    1812.00000
+                                            .               +Inf       -1.00000      26.00000    1812.00000 c_u_op_avail(10)_
+
+     2 hrs_day(DH_Mon)
+                    BS        .           26.00000        .              .               -Inf    1812.00000
+                                            .               +Inf       -1.00000      26.00000    1812.00000 c_u_op_avail(6)_
+
+     3 hrs_day(DH_Thu)
+                    BS       5.00000      26.00000        .             5.00000          -Inf          -Inf
+                                            .               +Inf        4.00000      26.00000    1812.00000 c_u_op_avail(9)_
+
+     4 hrs_day(DH_Tue)
+                    BS       5.00000      26.00000        .             5.00000      26.00000    1812.00000 c_u_op_avail(6)_
+                                            .               +Inf        3.00000      27.00000    1817.00000 c_l_op_min_week(4)_
+
+     5 hrs_day(DH_Wed)
+                    BS        .           26.00000        .              .               -Inf    1812.00000
+                                            .               +Inf       -1.00000      26.00000    1812.00000 c_u_op_avail(8)_
+
+     6 hrs_day(HB_Fri)
+                    BS       4.00000      24.00000        .             4.00000          -Inf          -Inf
+                                            .               +Inf        3.00000      26.00000    1820.00000 c_u_op_avail(15)_
+
+     7 hrs_day(HB_Mon)
+                    BS       4.00000      24.00000        .             4.00000          -Inf          -Inf
+                                            .               +Inf        3.00000      26.00000    1820.00000 c_u_op_avail(11)_
+
+     8 hrs_day(HB_Thu)
+                    BS        .           24.00000        .              .               -Inf    1812.00000
+                                            .               +Inf       -1.00000      26.00000    1812.00000 c_u_op_avail(14)_
+
+     9 hrs_day(HB_Tue)
+                    BS       8.00000      24.00000        .             8.00000          -Inf          -Inf
+                                            .               +Inf        7.00000      26.00000    1828.00000 c_u_op_avail(12)_
+
+    10 hrs_day(HB_Wed)
+                    BS       4.00000      24.00000        .             4.00000          -Inf          -Inf
+                                            .               +Inf        3.00000      26.00000    1820.00000 c_u_op_avail(13)_
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   7
+
+Problem:    
+Objective:  cost = 1812 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 hrs_day(KC_Fri)
+                    BS       6.00000      25.00000        .             6.00000          -Inf          -Inf
+                                            .               +Inf        5.00000      26.00000    1818.00000 c_u_op_avail(5)_
+
+    12 hrs_day(KC_Mon)
+                    BS       6.00000      25.00000        .             6.00000          -Inf          -Inf
+                                            .               +Inf        5.00000      26.00000    1818.00000 c_u_op_avail(1)_
+
+    13 hrs_day(KC_Thu)
+                    BS        .           25.00000        .              .               -Inf    1812.00000
+                                            .               +Inf       -1.00000      26.00000    1812.00000 c_u_op_avail(4)_
+
+    14 hrs_day(KC_Tue)
+                    BS        .           25.00000        .              .               -Inf    1812.00000
+                                            .               +Inf       -1.00000      26.00000    1812.00000 c_u_op_avail(2)_
+
+    15 hrs_day(KC_Wed)
+                    BS       6.00000      25.00000        .             6.00000          -Inf          -Inf
+                                            .               +Inf        5.00000      26.00000    1818.00000 c_u_op_avail(3)_
+
+    16 hrs_day(KS_Fri)
+                    BS        .           28.00000        .              .               -Inf    1812.00000
+                                            .               +Inf       -2.00000      28.00000    1812.00000 c_u_op_avail(25)_
+
+    17 hrs_day(KS_Mon)
+                    BS       1.00000      28.00000        .             1.00000      28.00000    1812.00000 c_u_op_avail(22)_
+                                            .               +Inf         .           28.00000    1812.00000 c_u_op_avail(9)_
+
+    18 hrs_day(KS_Thu)
+                    BS       3.00000      28.00000        .             4.00000      28.00000    1812.00000 c_u_op_avail(9)_
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+    19 hrs_day(KS_Tue)
+                    BS        .           28.00000        .              .               -Inf    1812.00000
+                                            .               +Inf       -2.00000      28.00000    1812.00000 c_u_op_avail(22)_
+
+    20 hrs_day(KS_Wed)
+                    BS       3.00000      28.00000        .             3.00000          -Inf          -Inf
+                                            .               +Inf        1.00000      28.00000    1812.00000 c_u_op_avail(23)_
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   8
+
+Problem:    
+Objective:  cost = 1812 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 hrs_day(NK_Fri)
+                    BS       1.00000      30.00000        .             1.00000      30.00000    1812.00000 c_u_op_avail(26)_
+                                            .               +Inf        1.00000          +Inf          +Inf
+
+    22 hrs_day(NK_Mon)
+                    BS        .           30.00000        .              .               -Inf    1812.00000
+                                            .               +Inf       -1.00000      30.00000    1812.00000 c_u_op_avail(26)_
+
+    23 hrs_day(NK_Thu)
+                    BS       6.00000      30.00000        .             6.00000          -Inf          -Inf
+                                            .               +Inf        5.00000      30.00000    1812.00000 c_u_op_avail(29)_
+
+    24 hrs_day(NK_Tue)
+                    BS        .           30.00000        .              .               -Inf    1812.00000
+                                            .               +Inf       -1.00000      30.00000    1812.00000 c_u_op_avail(27)_
+
+    25 hrs_day(NK_Wed)
+                    BS        .           30.00000        .              .               -Inf    1812.00000
+                                            .               +Inf       -1.00000      30.00000    1812.00000 c_u_op_avail(28)_
+
+    26 hrs_day(SC_Fri)
+                    BS       3.00000      27.00000        .             3.00000      27.00000    1812.00000 c_u_op_avail(10)_
+                                            .               +Inf        3.00000      27.00000    1812.00000 c_u_op_avail(26)_
+
+    27 hrs_day(SC_Mon)
+                    BS       3.00000      27.00000        .             3.00000      27.00000    1812.00000 c_u_op_avail(6)_
+                                            .               +Inf        3.00000      27.00000    1812.00000 c_u_op_avail(22)_
+
+    28 hrs_day(SC_Thu)
+                    BS        .           27.00000        .              .               -Inf    1812.00000
+                                            .               +Inf       -1.00000      27.00000    1812.00000 c_u_op_avail(19)_
+
+    29 hrs_day(SC_Tue)
+                    BS       1.00000      27.00000        .             1.00000      27.00000    1812.00000 c_u_op_avail(22)_
+                                            .               +Inf        1.00000      27.00000    1812.00000 c_u_op_avail(6)_
+
+    30 hrs_day(SC_Wed)
+                    BS       1.00000      27.00000        .             1.00000      27.00000    1812.00000 c_u_op_avail(8)_
+                                            .               +Inf        1.00000          +Inf          +Inf
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   9
+
+Problem:    
+Objective:  cost = 1812 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 ONE_VAR_CONSTANT
+                    BS       1.00000        .             .             1.00000          -Inf          -Inf
+                                            .               +Inf        1.00000          +Inf          +Inf
+
+End of report
